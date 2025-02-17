@@ -1,206 +1,72 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CarSport</title>
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #fff;
-      color: #333;
-      line-height: 1.6;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-      border-bottom: 1px solid #ddd;
-      background-color: #fff;
-    }
-
-    /* Logo en la izquierda */
-    header .logo {
-      flex: 1;
-      text-align: left;
-    }
-
-    header .logo span {
-      font-size: 1.5rem;
-      font-weight: bold;
-      color: #333;
-    }
-
-    /* Contenedor de la navegación */
-    .nav-container {
-      flex: 2;
-      display: flex;
-      justify-content: center;
-    }
-
-    nav {
-      display: flex;
-      gap: 2rem;
-      align-items: center;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: #333;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      color: #777;
-    }
-
-    /* Iconos en la derecha */
-    .header-icons {
-      display: flex;
-      gap: 1rem;
-    }
-
-    .header-icons img {
-      width: 24px;
-      height: 24px;
-    }
-
-    main {
-      flex: 1;
-      padding: 2rem;
-      max-width: 1200px;
-      margin: 0 auto;
-    }
-
-    .content {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-    }
-
-    .content .text-section {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      text-align: left;
-    }
-
-    .content .text-section .subtitle {
-      font-size: 1rem;
-      color: #555;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-
-    .content .text-section h1 {
-      font-size: 3rem;
-      font-weight: bold;
-      line-height: 1.2;
-    }
-
-    .content .text-section p {
-      font-size: 1rem;
-      color: #555;
-    }
-
-    .content .text-section .cta {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .content .text-section button {
-      padding: 0.5rem 1rem;
-      background-color: #000;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-    }
-
-    .content .text-section button:hover {
-      background-color: #444;
-    }
-
-    .content img {
-      width: 100%;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .flex-container {
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-    }
-
-    .flex-container .left {
-      flex: 1;
-      text-align: left;
-    }
-
-    .flex-container .right {
-      flex: 1;
-      text-align: right;
-    }
-
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projecte 2 - CARS</title>
+    <link rel="icon" href="img/iconos/icono.png">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="fonts.css">
+    <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <div class="logo">
-      <span>CARSPORT</span>
-    </div>
-    <!-- Contenedor para centrar la navegación -->
-    <div class="nav-container">
-      <nav>
-        <a href="#">ACCUEIL</a>
-        <a href="#">VOITURES</a>
-        <a href="#">CATÉGORIES</a>
-        <a href="#">CONTACT</a>
-      </nav>
-    </div>
-    <div class="header-icons">
-      <img src="../imagen/descarga.png" alt="contacto">
-      <img src="../imagen/descarga (1).png" alt="compra">
-    </div>
-  </header>
 
-  <!-- Main Content -->
-  <main>
-    <div class="content">
-      <div class="flex-container">
-        <div class="left">
-          <p class="subtitle">by carsport</p>
-          <h1>L’EXPERIENCE <br> EXTRAORDINAIRE</h1>
+<!------------------- SECCIÓN NAV -------------------->
+
+    <nav class="nav">
+        <div class="nav__logo">
+            CARSPORT
         </div>
-        <div class="right">
-          <p>
-            Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour
-            trouver l’origine du nom “S/T”, il faut remonter à la création originelle de 1969. À cette époque, le
-            constructeur souhaitait créer une version allégée de la 911 S pour la compétition. Face à ce succès
-            inattendu, Porsche prend donc la décision de créer son modèle homologué pour la route.
-          </p>
-          <div class="cta">
-            <button>DÉCOUVRIR</button>
-            <span>01 / 06</span>
-          </div>
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a class="nav__link" href="">ACCEUIL</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="">VOITURES</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="">CATÉGORIES</a>
+            </li>
+            <li class="nav__item">
+                <a class="nav__link" href="">CONTACT</a>
+            </li>
+        </ul>
+        <div class="nav__icons">
+            <ul class="nav__list2">
+                <li class="nav__item2">
+                    <span class="material-symbols-outlined">account_circle</span>
+                </li>
+                <li class="nav__item2">
+                    <span class="material-symbols-outlined">shopping_cart</span>
+                </li>
+            </ul>
         </div>
-      </div>
-      <img src="../imagen/cfdabbe3c078a3eb717645068a17bad9.png" alt="Porsche 911">
-    </div>
-  </main>
-</body>
-</html>
+    </nav>
+   <hr class="separación_nav">
+
+<!------------------ SECCIÓN HEADER  ---------------->
+
+   <header class="header">
+        <div class="header__container">
+            <div class="header__div">
+                <p class="hedaer__parrafo-titulo">BY CARSPORT</p>
+                <h1 class="titulo">L´EXPERIENCE EXTRAORDINAIRE</h1>
+            </div>
+            <div class="header__div segundo--div">
+                <P class="header__párrafo">Notre journaliste Jean-Pierre Gagick essaie le tout dernier modèle de Porsche : la 911 S/T. Et pour trouver l’origine du nom "S/T", il faut remonter à la création originelle de 1969. À cette époque, le constructeur souhaite créer une version allégée de la 911 S pour la compétition. Face à ce succès inattendu, Porsche prend donc la décision de créer son modèle homologué pour la route.</P>
+                <div class="segundo--div__apartado">
+                    <button class="boton">DESCUBRIR</button>
+                    <div class="seción-barra-progreso">
+                        01 / 06
+                        <div class="barra-progreso">
+                            <div class="raya-progreso"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="imagen__header" src="imagen/cfdabbe3c078a3eb717645068a17bad9.png" alt="Imagen de coche">
+   </header>
+   <hr class="separacion_header">
+
