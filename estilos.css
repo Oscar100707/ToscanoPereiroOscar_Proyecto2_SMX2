@@ -12,7 +12,7 @@ hr {
     background-color: #000;
 }
 
-/* ------------ NAV SECTION ------------- */
+/* ------------ SECCION NAV ------------- */
 
 .nav {
     display: flex;
@@ -21,7 +21,7 @@ hr {
     margin: auto;
 }
 
-.nav__logo {
+.logo_nav {
     border: solid black 2px;
     font-family: Bahn Pro Regular;
     font-size: 30px;
@@ -30,7 +30,7 @@ hr {
     text-align: center;
 }
 
-.nav__list {
+.list_nav {
     display: flex;
     justify-content: space-around;
     gap: 10px;
@@ -41,40 +41,40 @@ hr {
     font-size: 1.1em;
 }
 
-.nav__item {
+.item_nav {
     list-style: none;
     margin: auto;
     padding: 10px;
     transform: scale(.8);
 }
 
-.nav__link {
+.link_nav {
     text-decoration: none;
     color: #000;
 }
 
-.nav__icons {
+.icons_nav {
     display: flex;
     gap: 20px;
     scale: 1.2;
 }
 
-.nav__list2 {
+.list2_nav {
     display: flex;
     padding: 20px;
     gap: 20px;
     padding-right: 5px;
 }
 
-.nav__item2 {
+.item2_nav {
     list-style: none;
 }
 
-.separación_nav {
+.nav_separacion {
     margin-bottom: 50px;
 }
 
-/* ---------- END NAV SECTION ------------- */
+/* ---------- END SECCION NAV ------------- */
 
 
 /* ----------- NAV MEDIA --------------- */
@@ -215,3 +215,103 @@ header {
 }
 
 /* --------- END HEADER SECTION ---------- */
+/* ----------- MAIN SECTION ---------------- */
+
+.main__primera-secion {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__primera-seción_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.segundo--boton {
+    margin-top: 20px;
+}
+
+.main__flechas {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+    gap: 20px;
+}
+
+#fecha-atras {
+    color: #ddd;
+}
+
+.main__subtitulo {
+    font-size: 4em;
+    width: 30%;
+    font-weight: 100;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.main__secion-imagenes {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.main__secion-imagenes_parte {
+    width: 300px;
+}
+
+.main__imagen {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.imagen--diferente {
+    object-position: 80%;
+}
+
+.tipo-coche {
+    color: #ccc;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.descripcion {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.separacion__main {
+    margin: 50px 0;
+}
+
+/* ----------- MAIN SEGUNDA PARTE ------------- */
+
+.main_segunda-sesion {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+
+.main_segunda-sesion_parrafo {
+    width: 210px;
+    text-align: justify;
+}
+
+.main_raya-segunda-sesion {
+    margin: 20px 0 40px 0;
+    transform: scaleY(2);
+}
+
+.main__segunda-secion_imagen {
+    width: 800px;
+}
+
+.tercer--boton {
+    margin: 30px;
+    margin-bottom: 30px;
+}
